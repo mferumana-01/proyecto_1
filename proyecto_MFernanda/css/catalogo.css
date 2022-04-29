@@ -1,0 +1,102 @@
+.fijo {
+    position: sticky;
+    position: fixed;
+    max-width: 100%;
+    z-index: 1000;
+}
+
+body {
+    margin: 0;
+}
+
+.tittle {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tittle h1 {
+    font-family: 'Roboto Slab', serif;
+    color: darksalmon;
+    font-size: 6rem;
+}
+
+.tittle p {
+    font-family: 'Roboto Slab', serif;
+    color: slategray;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+
+.card h5 {
+    color: darkcyan;
+}
+
+.card .btn {
+    background-color: indianred;
+    border-color: indianred;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.art {
+    display: flex;
+}
+
+.container_tittle h2 {
+    font-family: 'Roboto Slab', serif;
+    color: darksalmon;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.container_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container_3 h2 {
+    font-family: 'Roboto Slab', serif;
+    color: darksalmon;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+#s2 h2 {
+    font-family: 'Roboto Slab', serif;
+    color: darksalmon;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#s2 {
+    background-color: white;
+}
+
+#s2 img {
+    width: 15rem;
+}
+
+#s2 h3 {
+    color: darkcyan;
+}

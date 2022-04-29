@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}

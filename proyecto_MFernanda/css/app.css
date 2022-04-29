@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    align-content: center;
+    background-color: rgb(255, 200, 248);
+}
+
+.tittle {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.tittle h1 {
+    font-family: 'Roboto Slab', serif;
+    color: darksalmon;
+    font-size: 2.5rem;
+}
+
+.tittle p {
+    font-family: 'Roboto Slab', serif;
+    color: slategray;
+    font-size: 1rem;
+}
+
+.d-flex{
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  color: darkcyan;
+  font-size: 1rem;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+  
+.resultadoVd{
+    color: indianred;
+      font-size: 20px;
+      padding-top: 25px;
+      padding-bottom: 20px;
+}
+  
+  
+
+  table {
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    background-color: indianred;
+  }
+  
+  
+  th{
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0 auto;
+  }
+  th,
+  td {
+    padding: 12px;
+    background-color: rgba(221, 15, 15, 0.2);
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  @media (max-width: 576px) {
+    table{
+      font-size: 10px;
+    }
+    th{
+      font-size: 8px;
+      padding: 0;
+    }
+  }
+
+  .btn-info{
+    color: white;
+  }
+
+  .btn-reg{
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }

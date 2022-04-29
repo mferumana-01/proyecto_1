@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/sitio_web.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">
+
+
+    <title>Blog | Sitio web</title>
+</head>
+
+<body>
+    <header>
+        <div class="collapse" id="navbarToggleExternalContent">
+
+            <div class="p-4">
+
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="sitio_web.html">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="landing_page.html">Landing Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="app_web.html">App</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-dark ">
+
+            <div class="container-fluid">
+                <div class="logo">
+                    <img src="img/logo.png">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="tittle">
+            <h1>BLOG Sol & Luna</h1>
+            <p></p>
+        </div>
+
+
+        <div class="container_1">
+
+            <div class="container-flex tittle_c1">
+                <p>MANTENTE AL TANTO DE LO ULTIMO EN JOYERIA PANDORA</p>
+            </div>
+            <div class="row video">
+                <div id="container">
+                    <div class="pt-2"></div>
+                    <button id="boton" onclick="ejecutar('video','youtube')" class="cursor">Ver vídeo</button>
+                </div>
+                <div id="video" class="lightbox" onclick="ocultar('video','youtube')">
+                    <div class="lightbox-container">
+                        <div class="lightbox-content">
+                            <button onclick="ocultar('video','youtube')" class="lightbox-close cursor">Cerrar | ✕</button>
+                            <div class="video-container">
+                                <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/3P1KIEDqA5A?start=1" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container_2">
+            <div class="tittle">
+                <h1>Comentarios</h2>
+                    <p>En la siguiente se encuentran los comentarios denuestras joyas y estadisticas de la Joyeria Sol&Luna</p>
+            </div>
+            <div class="pt-5"></div>
+
+            <div class="testimonials owl-carousel owl-theme">
+                <div class="item">
+                    <img src="img/a-3.jpeg" alt="foto1">
+                    <h3>Anillo Matrimonio</h3>
+                    <p>Para una propuesta de matrimonio esta excelente y queda hermoso!</p>
+                </div>
+                <div class="item">
+                    <img src="img/p-2.jpeg" alt="foto2">
+                    <h3>Aretes Rosa</h3>
+                    <p>Excelentes para un regalo de cumpleaños o aniversario.</p>
+                </div>
+                <div class="item">
+                    <img src="galeria/c-4.png" alt="foto3">
+                    <h3>Charm Astronauta</h3>
+                    <p>Muy buena calidad y detalle.</p>
+                </div>
+                <div class="item">
+                    <img src="img/p-4.jpeg" alt="foto4">
+                    <h3>Pulsera Pandora</h3>
+                    <p>Esta pulsera me facilito mucho el uso diario y mis charms quedan mejor!</p>
+                </div>
+                <div class="item">
+                    <img src="img/a-2.jpeg" alt="foto5">
+                    <h3>Anillo Cenicienta</h3>
+                    <p>Parece de cuento de hadas y brilla demasiado a la luz del sol!</p>
+                </div>
+                <div class="item">
+                    <img src="galeria/c-8.png" alt="foto6">
+                    <h3>Charm Viaje</h3>
+                    <p>Perfecto regalo para esa persona viajera y que le gusten lan Pandora.</p>
+                </div>
+            </div>
+
+            <div class="pt-5"></div>
+            <section class="ftco-counter" id="section-counter">
+                <div class="container">
+                    <h2 class="titulos text-center">Estadísticas web</h2>
+                    <div class="row pt-5">
+
+                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center">
+                                <div class="text">
+                                    <strong class="number" data-number="10">0</strong>
+                                </div>
+                                <div class="text-black">
+                                    <h5>Años de Experiencia</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center">
+                                <div class="text">
+                                    <strong class="number" data-number="3000">0</strong>
+                                </div>
+                                <div class="text-black">
+                                    <h5>Proyectos Completados</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center">
+                                <div class="text">
+                                    <strong class="number" data-number="5000">0</strong>
+                                </div>
+                                <div class="text-black">
+                                    <h5>Clientes Satisfechos</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18 text-center">
+                                <div class="text">
+                                    <strong class="number" data-number="24">0</strong>
+                                </div>
+                                <div class="text-black">
+                                    <h5>Equipo de trabajo</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="img/logo.png">
+            </div>
+
+
+            <div class="footer-contact">
+                <h3>Contacta con nosotras</h3>
+                <hr>
+                <p>Tel: (+506)8888-8888</p>
+                <p>Whatsapp: 9999-9999</p>
+                <p>Instagram: @Sol&Luna_Joyeria</p>
+                <p>Facebook: Sol & Luna Joyeria</p>
+            </div>
+
+
+            <div class="footer-menu">
+                <h3>Menú</h3>
+                <hr>
+                <p><a href="sitio_web.html">Principal</a></p>
+                <p><a href="catalogo.html">Catalogo</a></p>
+                <p><a href="blog.html">Blog</a></p>
+                <p><a href="landing_page.html">Landing Page</a></p>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

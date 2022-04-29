@@ -1,0 +1,54 @@
+.container_1 {
+    display: flex;
+}
+
+.tittle {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.tittle h1 {
+    font-family: 'Roboto Slab', serif;
+    color: darksalmon;
+    font-size: 5rem;
+}
+
+.tittle p {
+    font-family: 'Roboto Slab', serif;
+    color: slategray;
+    font-size: 1rem;
+}
+
+.tittle_c1 {
+    display: flex;
+    padding: 30px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.tittle_c1 p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.tittle_c2 p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: pink;
+}
+
+.video {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.ftco-counter h2 {
+    color: darkcyan;
+}
